@@ -1,5 +1,5 @@
 //importo immagine in react
-import logo from "../assets/img/favicon.png";
+import logo from "../assets/img/dc-logo.png";
 
 const Header = () => {
   return (

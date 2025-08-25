@@ -1,4 +1,5 @@
 
+import comics from "../assets/img/buy-comics-digital-comics.png";
 
 const Main = () => {
     return (
@@ -13,7 +14,31 @@ const Main = () => {
             <div className="cont-blue">
                 <div className="container-blue">
                     <div className="list-icon">
+                        <ul>
                         
+                            <li>
+                                <img src={comics} alt="" />
+                                <p>DIGITAL COMICS</p>
+                            </li>
+                            <li>
+                                <img src={comics} alt="" />
+                                <p>DIGITAL COMICS</p>
+                            </li>
+                            <li>
+                                <img src={comics} alt="" />
+                                <p>DIGITAL COMICS</p>
+                            </li>
+                            <li>
+                                <img src={comics} alt="" />
+                                <p>DIGITAL COMICS</p>
+                            </li>
+                            <li>
+                                <img src={comics} alt="" />
+                                <p>DIGITAL COMICS</p>
+                            </li>
+                           
+                         
+                        </ul>
                     </div>
                 </div>
             </div>
