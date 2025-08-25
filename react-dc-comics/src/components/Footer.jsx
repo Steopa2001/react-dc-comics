@@ -69,7 +69,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="cont-foot-grey"></div>
+      <div className="cont-foot-grey">
+        <div></div>
+      </div>
 
     </footer>
   );
