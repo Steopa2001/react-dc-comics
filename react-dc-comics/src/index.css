@@ -1,94 +1,95 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family:'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
-
 
 /* HEADER */
 Header {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 header img {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 .container {
-    padding: 20px 0;
-    max-width: 1100px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 20px 0;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .list-header li {
-    margin: 0 8px;
-    list-style-type: none;
+  margin: 0 8px;
+  list-style-type: none;
 }
 
 .list-header li a {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
 
 .list-header ul {
-    display: flex;
+  display: flex;
 }
-
 
 /* MAIN */
 
-.cont-black{
-    background-color: black;
+.cont-black {
+  background-color: black;
 }
-.cont-blue{
-    background-color:dodgerblue;
+.cont-blue {
+  background-color: dodgerblue;
 }
 
 .container-black {
-    max-width: 1100px;
-    margin: 0 auto;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .container-black .main-text h2 {
-    color: #FFFFFF;
-    padding: 25px 0;
+  color: #ffffff;
+  padding: 25px 0;
 }
 
 .container-blue {
-    max-width: 1100px;
-    margin: 0 auto;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.list-icon ul{
-    display: flex;
-    justify-content: space-between;
-    padding: 25px 0;
+.list-icon ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
 }
 
 .list-icon li {
-   list-style-type: none;
-   display: flex;
-   align-items: center;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
 }
 
 .list-icon li p {
-    color: #FFFFFF;
+  color: #ffffff;
+  font-size: 13px;
 }
 
 .list-icon li img {
-    width: 35px;
+  width: 35px;
 }
 
 .list-icon p {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
-
+.list-icon .locator img {
+  width: 50px;
+}
