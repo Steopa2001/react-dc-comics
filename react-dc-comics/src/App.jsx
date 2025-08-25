@@ -1,11 +1,12 @@
 //Importazione delle componenti
+import Header from "./components/Header";
 
 function App() {
-  <>
-  <Header />
-  <Main />
-  <Footer />
-  </>
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
-export default App
+export default App;

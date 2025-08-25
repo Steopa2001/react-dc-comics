@@ -1,5 +1,12 @@
+//importo immagine in react
+import logo from "../assets/img/favicon.png";
+
 const Header = () => {
-   return (
-    <img src="../assets/img/favicon.ico" alt="" />
-   )
+  return (
+    <header>
+      <img src={logo} alt="logo" />
+    </header>
+  );
 };
+
+export default Header;
