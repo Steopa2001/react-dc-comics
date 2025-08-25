@@ -121,3 +121,8 @@ header img {
 .cont-foot-background {
     padding: 50px 0;
 }
+
+.cont-foot-grey {
+   background-color: grey;
+   height: 80px;
+}

@@ -70,7 +70,8 @@ const Footer = () => {
       </div>
 
       <div className="cont-foot-grey">
-        <div></div>
+        <div className="btn-sign"></div>
+        <div className="lista-social"></div>
       </div>
 
     </footer>
