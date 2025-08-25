@@ -1,6 +1,12 @@
 //importo l'immagine 
 import footerBg from "../assets/img/footer-bg.jpg";
 import logo from '../assets/img/dc-logo-bg.png';
+import facebook from '../assets/img/footer-facebook.png';
+import twitter from '../assets/img/footer-twitter.png';
+import youTube from '../assets/img/footer-youtube.png';
+import pinterest from '../assets/img/footer-pinterest.png';
+import periscope from '../assets/img/footer-periscope.png';
+
 
 const Footer = () => {
   return (
@@ -70,8 +76,23 @@ const Footer = () => {
       </div>
 
       <div className="cont-foot-grey">
-        <div className="btn-sign"></div>
-        <div className="lista-social"></div>
+        <div className="cont-foot">
+        <div className="btn">
+            <div className="sign">SIGN-UP NOW!</div>
+        </div>
+
+        <div className="lista-social">
+            <h3>FOLLOW US</h3>
+            <div className="icon-footer">
+                <img src= {facebook} alt="facebook" />
+                <img src= {twitter} alt="twuitter" />
+                <img src= {youTube} alt="youTube" />
+                <img src= {pinterest} alt="pinterest" />
+                <img src= {periscope} alt="periscope" />
+            </div>
+        </div>
+
+        </div>
       </div>
 
     </footer>

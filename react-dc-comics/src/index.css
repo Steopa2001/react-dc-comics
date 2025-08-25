@@ -123,6 +123,40 @@ header img {
 }
 
 .cont-foot-grey {
-   background-color: grey;
-   height: 80px;
+   background-color: rgb(60, 60, 60);
+}
+
+.cont-foot-grey .sign {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid rgba(15, 96, 225, 0.583);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cont-foot {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    padding: 23px 0;
+    justify-content: space-between;
+}
+
+.lista-social h3 {
+    color: rgb(11, 88, 255);
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lista-social {
+    display: flex;
+}
+
+.lista-social img {
+    margin: 0 5px;
+    cursor: pointer;
 }
