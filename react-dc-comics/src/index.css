@@ -94,69 +94,68 @@ header img {
   width: 50px;
 }
 
-
 /* FOOTER */
 .list-footer {
-    max-width: 1100px;
-    margin: 0 auto;
-    display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
 }
 
 .list-footer .margin-ul {
-   margin: 0 30px;
+  margin: 0 30px;
 }
 
 .list-footer li {
-    list-style-type: none;
-    color: grey;
-    font-size: 15px;
+  list-style-type: none;
+  color: grey;
+  font-size: 15px;
 }
 
 .list-footer .bold-li {
-    color: white;
-    font-weight: bold;
-    font-size: 25px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .cont-foot-background {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .cont-foot-grey {
-   background-color: rgb(60, 60, 60);
+  background-color: rgb(60, 60, 60);
 }
 
 .cont-foot-grey .sign {
-    padding: 10px;
-    display: inline-block;
-    border: 2px solid rgba(15, 96, 225, 0.583);
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+  border: 2px solid rgba(15, 96, 225, 0.583);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .cont-foot {
-    max-width: 1100px;
-    margin: 0 auto;
-    display: flex;
-    padding: 23px 0;
-    justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  padding: 23px 0;
+  justify-content: space-between;
 }
 
 .lista-social h3 {
-    color: rgb(11, 88, 255);
-    margin-right: 20px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+  color: rgb(11, 88, 255);
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
 .lista-social {
-    display: flex;
+  display: flex;
 }
 
 .lista-social img {
-    margin: 0 5px;
-    cursor: pointer;
+  margin: 0 5px;
+  cursor: pointer;
 }
