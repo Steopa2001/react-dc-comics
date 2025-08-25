@@ -103,17 +103,21 @@ header img {
 }
 
 .list-footer .margin-ul {
-   margin: 0 20px;
+   margin: 0 30px;
 }
 
 .list-footer li {
     list-style-type: none;
     color: grey;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .list-footer .bold-li {
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
+}
+
+.cont-foot-background {
+    padding: 50px 0;
 }

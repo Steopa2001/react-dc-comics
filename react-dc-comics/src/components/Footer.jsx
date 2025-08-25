@@ -1,5 +1,6 @@
 //importo l'immagine 
 import footerBg from "../assets/img/footer-bg.jpg";
+import logo from '../assets/img/dc-logo-bg.png';
 
 const Footer = () => {
   return (
@@ -10,8 +11,25 @@ const Footer = () => {
           backgroundImage: `url(${footerBg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
+          backgroundRepeat: 'no-repeat',
+          position: 'relative',
+           overflow: "hidden"
         }}
       >
+          <div
+    style={{
+      backgroundImage: `url(${logo})`,
+      backgroundSize: "40% auto",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      position: "absolute",
+      top: 0,
+      left: 300,
+      width: "100%",
+      height: "100%",
+      zIndex: 1,
+    }}
+  ></div>
         <div className="list-footer">
             <ul>
                 <li className="bold-li">DC COMICS</li>
