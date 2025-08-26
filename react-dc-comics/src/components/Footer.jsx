@@ -14,6 +14,14 @@ const footerLinks = [
 }
 ];
 
+const socialIcons = [
+  { src: "/img/footer-facebook.png", alt: "facebook" },
+  { src: "/img/footer-twitter.png", alt: "twitter" },
+  { src: "/img/footer-youtube.png", alt: "youTube" },
+  { src: "/img/footer-pinterest.png", alt: "pinterest" },
+  { src: "/img/footer-periscope.png", alt: "periscope" }
+];
+
 const Footer = () => {
 
   return (
@@ -46,11 +54,9 @@ const Footer = () => {
           <div className="lista-social">
             <h3>FOLLOW US</h3>
             <div className="icon-footer">
-              <img src='/img/footer-facebook.png' alt="facebook" />
-              <img src='/img/footer-twitter.png' alt="twitter" />
-              <img src='/img/footer-youtube.png' alt="youTube" />
-              <img src='/img/footer-pinterest.png' alt="pinterest" />
-              <img src='/img/footer-periscope.png' alt="periscope" />
+              {socialIcons.map((icon, i) => (
+                <img key={i} src={icon.src} alt={icon.alt}/>
+              ))}
             </div>
           </div>
         </div>
