@@ -2,45 +2,86 @@
 import logo from "../assets/img/dc-logo.png";
 
 const Navbar = () => {
-  return (
-       <div className="container">
-        <img src={logo} alt="logo" />
-        <div className="list-header">
-          <ul>
-            <li>
-              <a href="#">CHARACTERS</a>
-            </li>
-            <li>
-              <a href="#" className="border">COMICS</a>
-            </li>
-            <li>
-              <a href="#">MOVIES</a>
-            </li>
-            <li>
-              <a href="#">TV</a>
-            </li>
-            <li>
-              <a href="#">GAMES</a>
-            </li>
-            <li>
-              <a href="#">COLLECTIBLES</a>
-            </li>
-            <li>
-              <a href="#">VIDEOS</a>
-            </li>
-            <li>
-              <a href="#">FANS</a>
-            </li>
-            <li>
-              <a href="#">NEWS</a>
-            </li>
-            <li>
-              <a href="#">SHOP</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-  )
-}
+  const links = [
+    {
+      id: 1,
+      label: "CHARACTERS",
+      href: "#",
+      current: false,
+    },
+    {
+      id: 2,
+      label: "COMICS",
+      href: "#",
+      current: true,
+    },
+    {
+      id: 3,
+      label: "MOVIES",
+      href: "#",
+      current: false,
+    },
+    {
+      id: 4,
+      label: "TV",
+      href: "#",
+      current: false,
+    },
+    {
+      id: 5,
+      label: "GAMES",
+      href: "#",
+      current: false,
+    },
+    {
+      id: 6,
+      label: "COLLECTIBLES",
+      href: "#",
+      current: false,
+    },
+    {
+      id: 7,
+      label: "VIDEOS",
+      href: "#",
+      current: false,
+    },
+    {
+      id: 8,
+      label: "FANS",
+      href: "#",
+      current: false,
+    },
+    {
+      id: 9,
+      label: "NEWS",
+      href: "#",
+      current: false,
+    },
+    {
+      id: 10,
+      label: "SHOP",
+      href: "#",
+      current: false,
+    },
+  ];
 
-export default Navbar
+  return (
+    <div className="container">
+      <img src={logo} alt="logo" />
+      <div className="list-header">
+        <ul>
+          {links.map(link => {
+            const {id, href, current, label} = link;
+            return (
+              <li key={id}>
+                <a href={href} className={current === true ? 'border' : ''}>{label}</a>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
