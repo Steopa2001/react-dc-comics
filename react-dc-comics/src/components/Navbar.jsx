@@ -1,5 +1,3 @@
-//importo immagine in react
-import logo from "../assets/img/dc-logo.png";
 
 const Navbar = () => {
   const links = [
@@ -67,7 +65,7 @@ const Navbar = () => {
 
   return (
     <div className="container">
-      <img src={logo} alt="logo" />
+      <img src='/img/dc-logo.png' alt="logo" />
       <div className="list-header">
         <ul>
           {links.map(link => {

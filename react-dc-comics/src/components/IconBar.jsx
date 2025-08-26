@@ -1,10 +1,4 @@
 
-import comics from "../assets/img/buy-comics-digital-comics.png";
-import merchandise from "../assets/img/buy-comics-merchandise.png";
-import subscriptions from "../assets/img/buy-comics-subscriptions.png";
-import locator from "../assets/img/buy-comics-shop-locator.png";
-import power from "../assets/img/buy-dc-power-visa.svg";
-
 const IconBar = () => {
 
   return (
@@ -13,31 +7,31 @@ const IconBar = () => {
         <div className="list-icon">
           <ul>
             <li>
-              <img src={comics} alt="" />
+              <img src='/img/buy-comics-digital-comics.png' alt="" />
 
               <p>DIGITAL COMICS</p>
             </li>
 
             <li>
-              <img src={merchandise} alt="" />
+              <img src='/img/buy-comics-merchandise.png' alt="" />
 
               <p>DIGITAL COMICS</p>
             </li>
 
             <li>
-              <img src={subscriptions} alt="" />
+              <img src='/img/buy-comics-subscriptions.png' alt="" />
 
               <p>DIGITAL COMICS</p>
             </li>
 
             <li>
-              <img src={locator} alt="" />
+              <img src='/img/buy-comics-shop-locator.png' alt="" />
 
               <p>DIGITAL COMICS</p>
             </li>
 
             <li>
-              <img src={power} alt="" />
+              <img src='/img/buy-dc-power-visa.svg' alt="" />
 
               <p>DIGITAL COMICS</p>
             </li>

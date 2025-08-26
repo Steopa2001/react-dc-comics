@@ -1,40 +1,14 @@
-//importo l'immagine
-import footerBg from "../assets/img/footer-bg.jpg";
-import logo from "../assets/img/dc-logo-bg.png";
-import facebook from "../assets/img/footer-facebook.png";
-import twitter from "../assets/img/footer-twitter.png";
-import youTube from "../assets/img/footer-youtube.png";
-import pinterest from "../assets/img/footer-pinterest.png";
-import periscope from "../assets/img/footer-periscope.png";
 
 const Footer = () => {
   return (
     <footer>
-      <div
+       <div
         className="cont-foot-background"
-        style={{
-          backgroundImage: `url(${footerBg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          position: "relative",
-          overflow: "hidden",
-        }}
       >
         <div
-          style={{
-            backgroundImage: `url(${logo})`,
-            backgroundSize: "40% auto",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            position: "absolute",
-            top: 0,
-            left: 300,
-            width: "100%",
-            height: "100%",
-            zIndex: 1,
-          }}
+          className="logo-background"
         ></div>
+
         <div className="list-footer">
           <ul>
             <li className="bold-li">DC COMICS</li>
@@ -83,11 +57,11 @@ const Footer = () => {
           <div className="lista-social">
             <h3>FOLLOW US</h3>
             <div className="icon-footer">
-              <img src={facebook} alt="facebook" />
-              <img src={twitter} alt="twitter" />
-              <img src={youTube} alt="youTube" />
-              <img src={pinterest} alt="pinterest" />
-              <img src={periscope} alt="periscope" />
+              <img src='/img/footer-facebook.png' alt="facebook" />
+              <img src='/img/footer-twitter.png' alt="twitter" />
+              <img src='/img/footer-youtube.png' alt="youTube" />
+              <img src='/img/footer-pinterest.png' alt="pinterest" />
+              <img src='/img/footer-periscope.png' alt="periscope" />
             </div>
           </div>
         </div>
