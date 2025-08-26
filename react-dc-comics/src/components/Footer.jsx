@@ -1,5 +1,24 @@
 
 const Footer = () => {
+
+  //creo struttura dati per i link del footer
+  const footerLinks = [
+  {
+    title: "DC COMICS",
+    links: ["Characters", "Comics", "Movies", "TV", "Games", "Videos", "News", "Shop DC", "Shop DC Collectibles"]
+  },
+  {
+    title: "DC",
+    links: ["Terms Of Use", "Privacy Policy (New)", "Ad Choices", "Advertising", "Jobs", "Subscriptions", "Talent Workshops", "CPSC Certificates", "Ratings", "Shop Help", "Contact Us"]
+  },
+  {
+    title: "SITES",
+    links: ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"]
+  }
+];
+
+
+
   return (
     <footer>
        <div
