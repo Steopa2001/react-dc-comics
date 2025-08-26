@@ -1,10 +1,19 @@
 
 const ComicsList = () => {
   return (
-    <div id="comics">
-      <h2>Lista fumetti</h2>
+    <div className="cont-jumbo">
+    <div id="jumbotron">
+        <div className="img"></div>
     </div>
+
+    <div className="container">
+        <div className="row">
+            <div className="col"></div>
+        </div>
+    </div>
+    </div>
+    
   )
 }
 
-export default ComicsList
+export default ComicsList;
