@@ -184,20 +184,25 @@ const ComicsList = () => {
       <div className="container-black">
         <div className="row">
           {comics.map((comic) => {
+            const {id, thumb, title} = comic
             return (
-              <div className="col-15" key={comic.id}>
+              <div className="col-15" key={id}>
                 <div className="comics-card">
                   <img
-                    src={comic.thumb}
-                    alt={comic.title}
+                    src={thumb}
+                    alt={title}
                   />
-                  <h3>{comic.title}</h3>
+                  <h3>{title}</h3>
                 </div>
               </div>
             );
           })}
         </div>
+        <div className="btn-jumbo">
+        <button className="text-btn">LOAD MORE</button>
       </div>
+      </div>
+
     </div>
   );
 };

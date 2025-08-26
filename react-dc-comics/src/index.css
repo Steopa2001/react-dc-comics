@@ -124,6 +124,7 @@ header img {
   flex-wrap: wrap;
   max-width: 1100px;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .col-15 {
@@ -135,12 +136,27 @@ header img {
 }
 
 .comics-card img {
-  width: 200px;
- height: 200px;
+  width: 150px;
+ height: 150px;
 }
 
 .comics-card h3 {
   color: white;
+}
+
+.btn-jumbo {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-jumbo button {
+  font-weight: bold;
+  padding: 10px 40px;
+  color: white;
+  background-color: dodgerblue;
+  border: 0;
+  cursor: pointer;
 }
 
 /* FOOTER */
