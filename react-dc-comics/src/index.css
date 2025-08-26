@@ -26,6 +26,11 @@ header img {
   align-items: center;
 }
 
+.list-header ul li .border {
+  color: blue;
+  border-bottom: 5px solid blue;
+}
+
 .list-header li {
   margin: 0 8px;
   list-style-type: none;

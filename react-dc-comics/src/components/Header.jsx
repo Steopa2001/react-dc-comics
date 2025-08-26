@@ -12,7 +12,7 @@ const Header = () => {
               <a href="#">CHARACTERS</a>
             </li>
             <li>
-              <a href="#">COMICS</a>
+              <a href="#" className="border">COMICS</a>
             </li>
             <li>
               <a href="#">MOVIES</a>

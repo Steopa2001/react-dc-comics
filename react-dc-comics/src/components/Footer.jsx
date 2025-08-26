@@ -84,7 +84,7 @@ const Footer = () => {
             <h3>FOLLOW US</h3>
             <div className="icon-footer">
               <img src={facebook} alt="facebook" />
-              <img src={twitter} alt="twuitter" />
+              <img src={twitter} alt="twitter" />
               <img src={youTube} alt="youTube" />
               <img src={pinterest} alt="pinterest" />
               <img src={periscope} alt="periscope" />
