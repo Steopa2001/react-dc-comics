@@ -114,7 +114,7 @@ header img {
 }
 
 .container-black {
-  max-width: 1600px;
+  max-width: 100%;
   background-color: rgb(28, 28, 28);
 }
 
@@ -133,6 +133,7 @@ header img {
 
 .comics-card {
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .comics-card img {
