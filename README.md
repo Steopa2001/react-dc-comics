@@ -21,7 +21,7 @@ Una volta inseriti tutti i contenuti dinamicamente, completate il vostro layout 
 BONUS:
 Immaginare e creare la struttura dati per i link nel footer e realizzarli tramite l’iterazione!
 
-## ESERCIZIONE 3
+## ESERCIZIO 3
 Continuate a lavorare nella stessa repo di ieri e create un nuovo componente riutilizzabile per visualizzare le card dei fumetti, sfruttando l’array di oggetti in allegato alla traccia di ieri. Fate in modo che il componente riceva i dati del singolo fumetto come props.
 
 Nota: Le immagini potrebbero variare leggermente rispetto a quelle nello screenshot.
