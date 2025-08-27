@@ -1,3 +1,6 @@
+import Comicscard from "./Comicscard";
+
+
 const ComicsList = () => {
   const comics = [
     {
@@ -187,13 +190,7 @@ const ComicsList = () => {
             const {id, thumb, title} = comic
             return (
               <div className="col-15" key={id}>
-                <div className="comics-card">
-                  <img
-                    src={thumb}
-                    alt={title}
-                  />
-                  <h3>{title}</h3>
-                </div>
+             <Comicscard comic={comic}/>
               </div>
             );
           })}
