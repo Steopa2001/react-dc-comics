@@ -1,11 +1,11 @@
 import IconBar from "./IconBar";
 import ComicsList from "./ComicsList";
 
-const Main = () => {
+const Main = ({comics, iconBarItems}) => {
   return (
     <main>
-      <ComicsList />
-      <IconBar />
+      <ComicsList comics={comics}/>
+      <IconBar items={iconBarItems}/>
     </main>
   );
 };

@@ -3,10 +3,10 @@
 import Navbar from "./Navbar";
 
 
-const Header = () => {
+const Header = ({links}) => {
   return (
     <header>
-      <Navbar/>
+      <Navbar links={links}/>
     </header>
   );
 };

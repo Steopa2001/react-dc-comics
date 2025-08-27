@@ -1,28 +1,5 @@
-//creo struttura dati per i link del footer
-const footerLinks = [
-{
-  title: "DC COMICS",
-  links: ["Characters", "Comics", "Movies", "TV", "Games", "Videos", "News", "Shop DC", "Shop DC Collectibles"]
-},
-{
-  title: "DC",
-  links: ["Terms Of Use", "Privacy Policy (New)", "Ad Choices", "Advertising", "Jobs", "Subscriptions", "Talent Workshops", "CPSC Certificates", "Ratings", "Shop Help", "Contact Us"]
-},
-{
-  title: "SITES",
-  links: ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"]
-}
-];
 
-const socialIcons = [
-  { src: "/img/footer-facebook.png", alt: "facebook" },
-  { src: "/img/footer-twitter.png", alt: "twitter" },
-  { src: "/img/footer-youtube.png", alt: "youTube" },
-  { src: "/img/footer-pinterest.png", alt: "pinterest" },
-  { src: "/img/footer-periscope.png", alt: "periscope" }
-];
-
-const Footer = () => {
+const Footer = ({links, socialIcons}) => {
 
   return (
     <footer>
@@ -34,7 +11,7 @@ const Footer = () => {
         ></div>
 
         <div className="list-footer">
-          {footerLinks.map((section, index) => (
+          {links.map((section, index) => (
             <ul key={index} className={index !== 0 ? 'margin-ul' : ''}>
               <li className="bold-li">{section.title}</li>
               {section.links.map((link, i) => (
